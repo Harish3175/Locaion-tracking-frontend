@@ -16,7 +16,7 @@ const Navbar = ({ searchText, setSearchText, user, token, onLogout }) => {
 
         {/* LOGO */}
         <Link to={token ? "/home" : "/"}>
-          <img src={nokialogo} className="w-28" />
+          <h1>Home</h1>
         </Link>
 
         {/* TITLE */}
