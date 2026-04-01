@@ -122,7 +122,7 @@ localStorage.getItem("token"));
         </Routes>
 
       </div>
-
+<Footer/>
 </div>
   );
 }
